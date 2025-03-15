@@ -1,0 +1,224 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+
+.footer .icon-link {
+    font-size: 25px;
+    color: #000;
+}
+
+.link-block a {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.dnerf {
+  font-variant: small-caps;
+}
+
+
+.teaser .hero-body {
+  padding-top: 0;
+  padding-bottom: 3rem;
+}
+
+.teaser {
+  font-family: 'Google Sans', sans-serif;
+}
+
+
+.publication-title {
+}
+
+.publication-banner {
+  max-height: parent;
+
+}
+
+.publication-banner video {
+  position: relative;
+  left: auto;
+  top: auto;
+  transform: none;
+  object-fit: fit;
+}
+
+.publication-header .hero-body {
+}
+
+.publication-title {
+    font-family: 'Google Sans', sans-serif;
+}
+
+.publication-authors {
+    font-family: 'Google Sans', sans-serif;
+}
+
+.publication-venue {
+    color: #555;
+    width: fit-content;
+    font-weight: bold;
+}
+
+.publication-awards {
+    color: #ff3860;
+    width: fit-content;
+    font-weight: bolder;
+}
+
+.publication-authors {
+}
+
+.publication-authors a {
+   color: hsl(204, 86%, 53%) !important;
+}
+
+.publication-authors a:hover {
+    text-decoration: underline;
+}
+
+.author-block {
+  display: inline-block;
+}
+
+.publication-banner img {
+}
+
+.publication-authors {
+  /*color: #4286f4;*/
+}
+
+.publication-video {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+
+    overflow: hidden;
+    border-radius: 10px !important;
+}
+
+.publication-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.publication-body img {
+}
+
+.results-carousel {
+  overflow: hidden;
+}
+
+.results-carousel .item {
+  margin: 5px;
+  overflow: hidden;
+  padding: 20px;
+  font-size: 0;
+}
+
+.results-carousel video {
+  margin: 0;
+}
+
+.slider-pagination .slider-page {
+  background: #000000;
+}
+
+.eql-cntrb { 
+  font-size: smaller;
+}
+
+
+
+/*  */
+
+img, video {
+  height: auto;
+  max-width: 100%
+}
+
+/* .video-item a
+{
+width:100%;
+} */
+
+.video-select {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.carousel-video {
+  height: 400px; /* Adjust this value as needed */
+  width: auto; /* Maintain aspect ratio */
+  object-fit: contain; /* Ensures the entire video is visible */
+}
+
+@media (max-width: 768px) {
+  .carousel-video {
+    height: 100px; /* For smaller screens */
+  }
+}
+
+@media (min-width: 1024px) {
+  .carousel-video {
+    height: 200px; /* For larger screens */
+  }
+}
+
+.slider-container {
+  display: flex;
+  gap: 10px; /* 调整间距 */
+  overflow: hidden; /* 防止内容超出容器 */
+  width: 20%;
+}
+
+
+.slider-item {
+  flex: 0 0 30%; /* 每个 item 占据父容器的 30% 宽度 */
+  width: 30%; /* 确保宽度为页面的 30% */
+  box-sizing: border-box; /* 包括内边距和边框在宽度计算内 */
+  flex-shrink: 0; /* 防止自动缩小 */
+  margin: 10px 10px; /* 调整每个 item 的左右间距 */
+  display: flex; /* 如果内部需要布局，使用 flex 布局 */
+  justify-content: center; /* 居中内容 */
+}
+
+
+
+.single-image-display img {
+  max-width: 70%; /* Ensure responsive scaling */
+  height: auto; /* Maintain aspect ratio */
+  margin: 0 auto; /* Center horizontally */
+  display: block; /* Ensures the image block centers */
+}
+
+.single-image-display h2 {
+  margin-top: 10px;
+  color: #333; /* Adjust text color */
+  text-align: center; /* Ensure text is centered */
+}
+
+.h3 {
+  font-size: 60%;
+  font-weight: 400;
+  border-bottom: #ddd, 2px solid;
+}
+
+.container h3 {
+  font-size: 1.5em;
+  margin-bottom: .6666em
+}
+
+.gray_line {
+  border: none;
+  height: 4px;
+  background-color: #c7c7c7;
+  margin: 0;
+}
